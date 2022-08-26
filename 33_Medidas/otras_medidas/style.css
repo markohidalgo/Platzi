@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.6%;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background: red;
+}
+section{
+    width: 80%;
+    min-width: 20rem;
+    max-width: 30rem;
+    height: 49%;
+    background-color: blue;
+    margin: 0 auto;
+    /* centra el contenedor azul */
+    text-align: justify;
+    overflow: auto;
+    /* hace que aparezca el scroll en el contendor azul */
+}

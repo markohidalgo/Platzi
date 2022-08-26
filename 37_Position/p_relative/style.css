@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#two {
+    position: relative;
+    top: 100px;
+ /*  
+  no se rompe el flujo
+*/
+    background-color: green;
+}

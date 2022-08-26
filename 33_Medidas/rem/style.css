@@ -1,0 +1,13 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    font-size: 1.6em;
+}
+
+.container div {
+    font-size: 1.6em;
+}
+
+/* la referencia de rem siempre sera el elemento root, siempre es html, y por default es 16px */

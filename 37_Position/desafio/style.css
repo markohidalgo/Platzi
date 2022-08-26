@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.4%;
+}
+
+.mensaje {
+    position: relative;
+    top: 4rem;
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.cabecera {
+    position: relative;
+    top: 4rem;
+    margin: 0 auto;
+    background: red;
+    font-size: 2rem;
+    max-width: 30rem;
+    border-radius: 0.7rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.cuerpo {
+  
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 4rem;
+    font-size: 2rem;
+    padding: 8rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
+}

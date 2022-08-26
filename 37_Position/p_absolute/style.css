@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+#two {
+    position: absolute;
+    top: 100px;
+    margin: 0;
+    padding: 0;
+    /*  
+     si se rompe el flujo
+*/
+    background-color: green;
+}

@@ -1,0 +1,14 @@
+.container{
+
+    font-size: 1.6em;
+}
+
+.container div  {
+    font-size: 1.6em;
+}
+
+/* para calcular el tamaño de las medidas em, se toma como referencia
+el tamaño definido en el padre, por esta razon en este caso, el tamaño del 
+texto se observa recursivo e incremental, es lo q puede pasar si 
+no se tiene cuidado en como colocar los tamaños de texto a los elementos que 
+en algun momento seran padres  */

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.6%;
+}
+
+.container{
+
+    font-size: 2rem;
+}
+
+.container div  {
+    font-size: 2rem;
+}
+/* rem siempre tendra como referencia el tamaño de 
+el elemnto root  */
