@@ -1,9 +1,37 @@
+
+:root{
+    --primary-color: #003476;
+    --secundary-color:#b4d2f7;
+    --header-size: 4rem;
+    --font-size-primary:1.8rem;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 html{
     font-size: 62.5%;
 }
 body{font-size: 1.6rem;}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background: var(--primary-color);
+}
+main{
+    width: 100vw;
+    height: 70vh;
+    font-size: var(--font-size-primary);
+}
+h1{
+    color: var(--primary-color);
+    font-size:var(--header-size)
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--secundary-color);
+}

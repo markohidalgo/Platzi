@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+:root {
+    --fuente-primaria: 'Roboto', sans-serif;
+    --fuente-secundaria: 'Ubuntu', Times;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.parent {
+    font-family: var(--fuente-primaria);
+}
+
+.son {
+
+    font-family: var(--fuente-secundaria);
+    font-weight: 300px;
+}
