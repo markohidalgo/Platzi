@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* colores */
+:root {
+    --background: #184cf5;
+    --textoFocus: #13c3e6;
+    
+    --placeholder: #fefefe;
+    --marcoTexto: #fefefe;
+    --bordesLetrero: #fefefe;
+    
+    --redondes: 0.3em;
+    --size-font: 1em;
+    --size-font-small: 0.5em;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    /* separacion  entre inputs */
+    gap: 15px;
+    background: var(--background);
+
+}
+
+.inputBox {
+    position: relative;
+    width: 200;
+
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 0.4em;
+    border: 1px solid var(--marcoTexto);
+    background: var(--background);
+    border-radius: var(--redondes);
+    outline: none;
+    color: var(--textoFocus);
+    font-size: var(--size-font);
+    /* grueso del input */
+}
+
+.inputBox span {
+    position: absolute;
+    left: 0px;
+    padding: 0.4em;
+    pointer-events: none;
+    font-size: var(--size-font);
+    color: var(--placeholder);
+    text-transform: uppercase;
+    transition: 0.8s;
+
+}
+
+.inputBox input:valid~span,
+.inputBox input:focus~span {
+
+    color: var(--placeholder);
+    /* asigna el color de las letras */
+    transform: translateX(10px) translateY(-7px);
+    /* reposiciona la palabra */
+    font-size: var(--size-font-small);
+    /* hace q las letras se suban para permitir escrbir */
+    padding: 0 10px;
+    /* elimina la linea q se ve por detras */
+    background: var(--background);
+    /* crea las lineas de los costados del letrero */
+
+    border-left: 1px solid var(--bordesLetrero);
+    border-right: 1px solid var(--bordesLetrero);
+    /* activar si se desea otro aspecto */
+    /* border: 1px solid var(--bordesLetrero);
+    border-radius: var(--redondes); */
+    letter-spacing: 0.3em;
+}
+
+.inputBox input:valid,
+.inputBox input:focus {
+
+    /* cuando obtiene el foto, pinta el input de color verde agua */
+    border: 1px solid var(--marcoTexto);
+}
