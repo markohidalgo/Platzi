@@ -1,0 +1,118 @@
+/* 
+font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+
+*/
+:root {
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-blue: hsl(198, 62%, 26%);
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+
+    --Very_dark_desaturated_blue: hsl(212, 27%, 19%);
+    --Very_dark_grayish_blue: hsl(213, 9%, 39%);
+    --Dark_grayish_blue: hsl(232, 10%, 55%);
+    --Grayish_blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+
+    --font1: 'Fraunces', serif;
+    --font2: 'Barlow', sans-serif;
+
+    --size: 1.6rem;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: var(--size);
+    font-family: var(--font1);
+
+}
+
+.container {
+    padding: 8rem 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: url('../images/mobile/image-header.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav {
+    padding: 2rem 0;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+}
+
+.hero__main {
+    height: 45rem;
+    color: var(--White);
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 3rem;
+    font-family: var(--font1);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.services {
+
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 250px 400px);
+}
+
+.services__image {
+
+    background-image: url('../images/mobile/image-transform.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.services__text{
+    place-self: center;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+
+.services__tittle{
+        font-size: 2rem;
+        font-family: var(--font1);
+        color: var(--Very_dark_desaturated_blue);
+        padding-bottom: 1rem;
+    }
+    .services__paragraph{
+        line-height: 1.5;
+        color: var(--Very_dark_desaturated_blue);
+        margin: 1.5rem;
+        
+    }
+    .services__cta{
+        
+        color: var(--Very_dark_desaturated_blue);
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: var(--font1);
+
+}
+
+/* https://youtu.be/1-11OyvGIFU?t=2061 */
