@@ -1,0 +1,28 @@
+https://www.youtube.com/watch?v=LzlarZAtMYI&list=PLP7LlHfxfuM8pAs_N7JOEvBIcpgTDiHud
+
+00:00 Introducción a CSS3 ¿Qué es CSS?
+04:29 Configurando nuestro editor de código
+06:25 Empezando a utilizar CSS3
+12:24 Creando archivos CSS3
+15:50 Comentarios en CSS3
+17:33 Descendencia en CSS3
+19:25 Empezando nuestro primer proyecto
+20:43 Introducción a los selectores en CSS3
+29:45 Selectores Básicos en CSS3
+37:43 Selectores de atributo en CSS3
+49:12 Selectores Combinadores
+01:08:09 Introducción al Box Model
+01:19:29 Propiedad margin en CSS3
+01:33:15 Colapso de Margenes en CSS
+01:43:30 Padding en CSS
+01:56:13 Border en CSS3
+02:00:00 Tipos de elementos en CSS3
+02:09:39 Cascada y Especificidad en CSS3
+02:21:13 Herencia en CSS3
+02:28:20 Bordes en CSS3
+02:40:00 Bordes Radius en CSS3
+02:56:26 Box shadow [Sombras en CSS3]
+03:24:13 Drop shadow en CSS3
+03:28:49 Final curso CSS3 Básico
+
+https://github.com/AlexCGDesign

@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=54Ky7OZ9Jmc&list=PLP7LlHfxfuM8BIoSNvaeg1MYAGEs1sy8s&index=2&t=1s
+
+00:00 Introducción al curso de HTML5 desde cero
+01:20 ¿Qué es HTML?
+05:05 Creando nuestro primer documento HTML en VSCODE
+11:08 Sintaxis de las etiquetas en HTML
+17:32 Estructura básica de un documento HTML
+26:02 Etiquetas Headings en HTML (H1,H2)
+33:56 Comentarios en HTML
+38:33 Etiquetas de texto en HTML
+57:20 Enlaces en HTML (Etiqueta A HTML)
+1:12:25 Imágenes en HTML
+1:23:28 Etiquetas de contenido HTML (Main, Article, Footer)
+1:45:09 Elementos en Bloque y en linea HTML
+1:49:00 Listas en HTML
+1:55:15 Tablas en HTML
+1:59:28 Formularios en HTML (Inputs, Forms, Select)
+2:14:58 Iframe en HTML (Páginas dentro de otras páginas)
+2:19:15 Etiquetas de Audio y Video en HTML
+2:26:20 ¿Ahora qué sigue? Despedida curso
