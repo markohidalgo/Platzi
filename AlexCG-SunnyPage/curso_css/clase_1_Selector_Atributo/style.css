@@ -1,0 +1,25 @@
+.titulo {
+    text-align: center;
+}
+
+[href]{
+   text-decoration: none;
+}
+[href="http://www.google.com"]{
+    /* igualacion */
+    color: red;
+}
+[href^="hsttp"]{
+    /* inicio del atributo */
+    color: salmon;
+}
+
+[href$="mx"]{
+    /* final del atributo */
+    color:green;
+}
+[href*="marko"]{
+    /* contenido del atributo */
+    color:brown;
+    font-size: large;
+}

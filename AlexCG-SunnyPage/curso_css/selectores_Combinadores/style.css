@@ -1,0 +1,39 @@
+h2,h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor p{
+   /*  cualquier parrafo q sea hijo o nieto de " contenedor" */
+    color:red;
+}
+
+.contenedor>p{
+   /*  cualquier hijo directo de contenedor que es p */
+    font-size: 30px;
+}
+/* qui te el subrayado de todos los elementos "a" que esten dentro del .contenedor y que 
+ademas tenga el color firebrik */
+.contenedor a {
+    text-decoration: none;
+    color: firebrick;
+}
+
+/* Agraga tamaño de fuente 20px y pon negritas solo los elementos "a" que sean hijos directos
+de contenedor */
+.contenedor >a{
+    font-size: 40px;
+}
+
+/* agregar  color " gold"  al elemento "p" qu e esta enseguida del elemento "h2", solo a ese elemento p
+(deben ser  her manos) */
+
+h2 + p {
+    color: gold;
+}
+
+/* agregar color indigo a o todos los parrrafos que est en despues de un elemen to h3  y sean hermanos */
+h3 ~ p {
+    color: indigo;
+    font-size: 40px;
+}
