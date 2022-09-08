@@ -1,10 +1,22 @@
-.box{
-    width: 100px;
-    height: 100px;
+.box {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
 }
-.box1{
-background: steelblue;
+
+.box1 {
+    width: 90%;
+    background: steelblue;
+    border: 1px solid transparent;
 }
-.box2{
-background: tomato;
+
+.box2 {
+    background: tomato;
+}
+
+.header {
+    margin-top: 10px;
+    background: gold;
+    height: 40px;
+    width: 100%;
 }
