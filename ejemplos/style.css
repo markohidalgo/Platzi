@@ -1,0 +1,12 @@
+.caja {
+
+    width: 100px;
+    height: 100px;
+    background: #E5ECF6;
+    box-shadow: 4.89859e-16px 8px 16px rgba(46, 47, 49, 0.1665), inset -1.2954e-16px -2.11556px 2.11556px #D8DFE8, inset 1.2954e-16px 2.11556px 2.11556px #EFF6FF;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #E5ECF6;
+}
