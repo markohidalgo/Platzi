@@ -404,7 +404,7 @@ main {
 
 .bitcoin-img-container {
     width: 100%;
-    min-width: 320px;
+    /* min-width: 320px; */
     height: 50vh;
     background-image: url('../assets/img/bitcoinimage.png');
     background-position: center;
