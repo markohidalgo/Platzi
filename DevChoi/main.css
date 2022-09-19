@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--primary-font);
 }
@@ -64,43 +68,51 @@ button:hover {
     text-align: justify;
     padding: 0px 20px;
 }
-.color-acento{
+
+.color-acento {
     color: blueviolet;
 }
+
 header {
     background-color: var(--white);
+    position: fixed;
+    width: 100%;
 }
-header .logo{
+
+header .logo {
     margin: 0;
     padding: 25px 32px;
     font-weight: bold;
     color: blueviolet;
     font-size: 1.6rem;
 }
-header .container{
+
+header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-header nav{
+header nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 25px;
 }
-header a{
+
+header a {
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;
 }
-header a:hover{
+
+header a:hover {
     color: blueviolet;
 }
 
 /* hero */
-#hero{
+#hero {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,22 +120,169 @@ header a:hover{
     flex-direction: column;
     height: 90vh;
     color: white;
-    background-image: 
-    linear-gradient(0deg,rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
-    url('./media/hero.jpg');
+    background-image:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+        url('./media/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:  center center;
+    background-position: center center;
 }
 
-#somos-proya .container{
-
-        text-align: center;
-        padding: 200px 14px;
+#hero button {
+    font-size: 2rem;
 }
 
+#somos-proya .container {
+
+    text-align: center;
+    padding: 200px 14px;
+}
+
+#nuestros-programas {
+    background-color: rgba(30, 30, 30, 1);
+    color: white;
+}
+
+#nuestros-programas .container {
+    text-align: center;
+    padding: 150px 20px;
+
+}
+
+#nuestros-programas p {
+    display: none;
+}
+
+#nuestros-programas h2 {
+    margin-top: 3.2rem;
+}
+
+#nuestros-programas .carta {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0px;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+.carta:first-child {
+    background-image:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+        url('./media/front-end.jpg');
+
+}
+
+.carta:nth-child(2) {
+    background-image:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+        url('./media/full-stack-cropped.jpg');
+
+}
+
+.carta:nth-child(3) {
+    background-image:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+        url('./media/python.jpg');
+
+
+}
+
+#caracteristicas .container {
+    text-align: center;
+    padding: 200px 12px;
+
+}
+
+#caracteristicas li {
+    margin: 1rem 0px;
+    font-weight: bold;
+}
+
+#aplica-ya {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(30, 30, 30, 1);
+    color: white;
+    height: 80vh;
+    min-width: 288px;
+}
+
+#aplica-ya button {
+    font-size: 5vw;
+}
+
+#aplica-ya h2 {
+    font-size: 9vw;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+    min-width: 288px;
+}
+
+footer p {
+    margin: 0;
+    color: rgb(100, 100, 100);
+    padding: 15px;
+}
+
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+
+}
+
+@media (min-width: 720px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    #somos-proya .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #somos-proya .texto {
+        width: 50%;
+        text-align: initial;
+        padding: 0px 30px;
+    }
+
+    #somos-proya .image-container {
+        background-image:
+            linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+            url('./media/somos-proya.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 400px;
+        height: 400px;
+    }
+}
 
 /* 
     https://youtu.be/8-RC-Q7Wtzc   
-    minuto 41:54
+    minuto 1:06:31
 */
