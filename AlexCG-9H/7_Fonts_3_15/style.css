@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #320Da8;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card {
+    background-color: white;
+    padding-bottom: 30px;
+    width: 270px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.card__text {
+    padding: 30px 20px;
+}
+
+.card__img {
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.card__date{
+
+    font-weight: 300;
+}
+.card__title {
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card_contenido{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.card__cta{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #320Da8;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-weight: 300;
+
+}

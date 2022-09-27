@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    height: 100%;
+
+    background-image: url('./waves.svg'), linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-size: 100% 150px, cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.hero__container {
+    width: 90%;
+    height: 100%;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.hero__title {
+    font-size: 2.8rem;
+}
+
+.hero__paragraph {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hero__cta {
+
+    background-color: white;
+    padding: 12px 25px;
+    color: #48338d;
+    text-decoration: none;
+    display: block;
+    border-radius: 30px;
+}
+
+.hero__picture {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.hero__img {
+    width: 100%;
+    display: block;
+}

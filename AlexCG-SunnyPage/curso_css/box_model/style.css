@@ -11,7 +11,12 @@
 }
 
 .box2 {
+    
     background: tomato;
+    padding: 30px;
+    border-radius: 90px 0px;
+    overflow: scroll;
+    text-align: justify;
 }
 
 .header {
