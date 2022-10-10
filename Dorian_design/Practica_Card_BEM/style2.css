@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    margin: 50px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(204, 222, 238, 0.3);
+    border-radius: 14px;
+    box-shadow: 10px 10px 36px -18px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 10px 10px 36px -18px rgba(0,0,0,0.45);
+    -moz-box-shadow: 10px 10px 36px -18px rgba(0,0,0,0.45);
+}
+
+.card--blue {
+
+    background-color: rgba(115, 197, 182, 0.272);
+}
+
+.content {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.content__text {
+    width: 80%;
+}
+
+.card__img {
+    width: 130px;
+    height: 130px;
+}
+
+.card__img--big {
+    width: 200px;
+    height: 200px;
+}
+
+.card__title {
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.card__text {
+    font-size: 0.8rem;
+}
+
+.social-media {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    line-height: 1.6;
+
+}
+
+.instagram {
+    display: flex;
+
+    width: 23px;
+    height: 23px;
+
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+
+
+    border-radius: 50%;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+
+
+}
+
+
