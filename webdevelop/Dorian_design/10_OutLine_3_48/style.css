@@ -1,0 +1,90 @@
+/* 
+
+    Outline es l propeidad que nos permite dibujar un borde 
+    fuera del modelo de caja.
+    Es un shorthand que engloba:
+
+        outline-width: cotrola el ancho del outline
+        outline-style: Controla el estilo del outlin
+        outline-color: Controla el color del outline
+
+    Tiene las mismas propiedades y sintaxis que border, pero 
+    con algunas diferencias
+
+        No ocupa sitio, ya que no forma parte del box-model
+        No se puede redondear (se redondea el contenedor)
+        No se pueden controlar de manera independiente los lados
+
+
+        Tambien cuenta con la propiedad outline-offset, que nos
+        permite aumentar o disminuir la distance del outline 
+        en relacion a la caja a la que pertenece
+        
+
+
+
+*/
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(194, 194, 194);
+    height: 200vh;
+}
+.border, .outline{
+    background-color: #666;
+    padding: 10px 25px;
+    margin: 15px 50px;
+    border-radius: 5px;
+}
+
+.border{
+    border: 5px solid lightcoral;
+}
+.outline{
+    outline: 3px inset lightcoral;
+    border: 5px inset lightgreen;
+    outline-offset: -15px;
+    
+} 
+
+.blanco{
+    outline: 3px solid rgb(132, 132, 132);
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: .3rem;
+    -webkit-box-shadow: -7px -12px 46px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px -12px 46px -7px rgba(0,0,0,0.75);
+box-shadow: -7px -12px 46px -7px rgba(0,0,0,0.75);
+}
+.blanco:hover{
+    width: 100px;
+    height: 100px;
+    transition: all 900ms;
+}
+
+.menu{
+    width: 100%;
+    height: 15px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+
+}
