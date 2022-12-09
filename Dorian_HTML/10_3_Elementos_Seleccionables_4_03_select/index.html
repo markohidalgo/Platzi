@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- 
+
+    radio -> permite seleccionar una unica opcion de una liosta de opciones
+    relacinadas.
+
+    checkbox -> Permite seleccionar varias opciones de una lista de opciones
+    relacionadas
+
+    select -> Crea una lista de opciones donde podemos seleccionar una o varias 
+    opciones
+
+    cada opcion ira dentro de una etiqueta <option> </option>
+
+    si tenemos muchas opciones podemos ordenarlas por categorias
+    a traves de le etiqueta <optgrp> con el atributo label para 
+    nombrar la categoria
+
+ -->
+<body>
+    <form action="#">
+        <select name="lenguajes" id="">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+        </select>
+        <select name="lenguajes" id="" multiple>
+            <!-- con el atributo " multiple " se podran seleccionar multiples opciones 
+                para seleccionar mas de uno, presionar ctrl o cmd
+            -->
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+        </select>
+    </form>
+    
+</body>
+</html>

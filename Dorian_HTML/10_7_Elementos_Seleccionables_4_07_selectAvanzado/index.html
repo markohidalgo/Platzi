@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select avanzado</title>
+</head>
+<body>
+    <select name="mascotas" id="">
+        <option value="perro">perro</option>
+        <option value="gato">gato</option>
+        <option value="hamster">hamster</option>
+        <option value="conejo">conejo</option>
+        <option value="loro">loro</option>
+        <option value="canario">canario</option>
+        <option value="serpiente">serpiente</option>
+        <option value="tarantula">tarantula</option>
+    </select>
+    <!-- si tenemos muchas opciones podemos ordenarlas por categorias a traves
+    de la etiqueta <optgroup> con el atriguto label para nombrar la categoria
+    --> <br>
+    <select name="mascotas" id="">
+        <optgroup label="4 patas">
+            <option value="perro">perro</option>
+            <option value="gato">gato</option>
+            <option value="hamster">hamster</option>
+            <option value="conejo">conejo</option>
+        </optgroup>
+        <optgroup label="aves">
+
+            <option value="loro">loro</option>
+            <option value="canario">canario</option>
+        </optgroup>
+        <optgroup label="otras">
+
+            <option value="serpiente">serpiente</option>
+            <option value="tarantula">tarantula</option>
+        </optgroup>
+    </select>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduccion a formularios</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .formbs {
+        margin: 0 auto;
+        margin-top: 1rem;
+        width: 25rem;
+        padding: 25px;
+        border-radius: 15px;
+        background-color: rgb(160, 213, 215);
+        border: 5px solid cadetblue;
+      }
+      .texto {
+        margin: 50px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <!-- 
+    La estructura basica de un formulario se compone de 4 elementos
+
+    form -> es la etiqueta que engloba nuestro formulario
+    label -> sirve para escribir el nombre del campo a rellenar
+    input -> sirve para crear un campo que permitira al usuario interactuar
+    button -> crear un boton que permitira enviar el formulario
+   -->
+  <body>
+    <form action="#" method="get" class="formbs form1">
+      <label for="name">Nombre</label><br />
+      <input type="text" name="name" id="name" /><br />
+      <button>Enviar Formulario</button>
+    </form>
+
+    <!-- otra manera de asociar un label a un input
+        es poco comun pk no nos permite jugar con elementos css
+    -->
+    <form action="#" method="get" class="formbs form2">
+      <label>Nombre <input name="name" /><br /> </label><br />
+      <button>Enviar Formulario</button>
+    </form>
+
+    <p class="texto">algunos de los tipos de input mas utilizados</p>
+    <!-- 
+
+          button: se comporta igual que un boyon <button>
+          color: se utiliza para que elegir un color ( via picker)
+          date: se utiliza para introducir una fecha
+          datetime -> obsoleto
+          datetime-local: fecha y hora pero no funciona en FIREFOX
+          email:  se utiliza para solicitar el correo
+          hidden: campo oculto, puede contener valor pero no so mostrara
+          month: se utiliza para solicitar el mes
+          number:  se utiliza para valores numericos
+          password; se utliza para contraseñas
+          range: se utiliza para establecer rangos
+          reset: se utiliza para resetear el formulario
+          search: se utiliza para las barras de busqueda
+          submit: se utiliza para enviar el formulario
+          tel: se utiliza para introducir numeros telefonicos
+          text: valor por defecto y se usa para capturar texto
+          time: se utiliza para introducir horas
+            TIP -> se recomienda usar datetime-local y time para seleccionar 
+                    fecha y hora
+          url: se utiliza para capturar direcciones URL
+          week: se tuliza para introducir el numero de semana
+
+     -->
+
+    <form action="#" class="formbs form3">
+      <input type="button" value="Enviar input" />
+      <p>
+        el input type button sirve para colocar un boton en el formulario y
+        programarlo desde JS
+      </p>
+
+      <button>Enviar</button>
+      <p>
+        el button sirve para enviar el formulario al action especificado en la
+        etiquerta form
+      </p>
+    </form>
+    <form action="#" class="formbs">
+      <input type="date" name="" id="" />
+      <input type="time" name="" id="" />
+      <input type="datetime-local" name="" id="" />
+      <input type="month" name="" id="" />
+      <input type="week" name="" id="" />
+    </form>
+    <form action="#" class="formbs">
+      inputs pra moviles
+      <!-- 
+        search tel email password url
+        
+       -->
+      <br />
+      <label>busqueda</label>
+      <input type="search" name="" id="" /> <br />
+
+      <label>tel</label>
+      <input type="tel" name="" id="" /> <br />
+
+      <label>email</label>
+      <input type="email" name="" id="" /> <br />
+
+      <label>password</label>
+      <input type="password" name="" id="" /> <br />
+
+      <label>url</label>
+      <input type="urla" name="" id="" /> <br />
+    </form>
+
+    <form action="#" class="formbs">
+      <p>inputs extra 3:50</p>
+      <input type="color" />
+      <input type="number" />
+      <input type="range" step="5" min="0" max="30" />
+      <input type="reset" value="reinicio" />
+    </form>
+   
+  </body>
+</html>

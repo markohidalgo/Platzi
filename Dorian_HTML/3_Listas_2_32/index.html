@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- 
+    las listas en HTML sirven para listar contenido. En funcion del tipo de contenido
+    de nuestra lista tenemos tres tipos de listas:
+
+    ul ->   unsorted list: Se utilizan cuando el orden de los elementos no influye
+    ol->    ordered list: se utilizan cuando el orde de los elementos es importante
+    dl->    definition list: Se utilizan para hacer una lista de definiciones (diccionario)(poco utilizadas)
+
+    cada elemento de una lista de definicion lleva 2 etiquetas
+    dt-> Definition term: el termino que vamos a definir
+    dd-> Definition description: la descripcion del termino
+
+    atributos de las listas
+      ol-> 
+            type: estilo de numeracion (1,A,a,I,i)
+            start: inicio de la secuencia ( un numero)
+
+      ul-> 
+            type: estilo de los items (disc, square, circle)
+
+ -->
+  <body>
+    <h1>listas</h1>
+    <!-- nav>ul>li*5>a[href="#post_$"] -->
+    <nav>
+      <ul>
+        <li><a href="#post_2">Post 1</a></li>
+        <li><a href="#post_3">Post 2</a></li>
+        <li><a href="#post_4">Post 3</a></li>
+        <li><a href="#post_1">Post 4</a></li>
+        <li><a href="#post_5">Post 5</a></li>
+      </ul>
+    </nav>
+
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+    <ol>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ol>
+    <h2>Lorem, ipsum dolor.</h2>
+    <dl>
+      <dt>html</dt>
+      <dd>
+        HiperText Markup Language: Lenguaje para estructurar datos en una pagina
+        web
+      </dd>
+      <dt>CSS</dt>
+      <dd>Cascade Style Sheets: Lenguaje de diseño para dar estilo al HTML</dd>
+      
+    </dl>
+  </body>
+</html>

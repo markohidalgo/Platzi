@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parrafo{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p class="parrafo"></p>
+    <p id="parrafo"> identificador a traves de un ID</p>
+    <p title="titulo">titulo con tooltip</p>
+    <p id="parrafo2" data-ejemplo="Datos ejemplo"> datos pasados a la etiqueta</p>
+    <script>
+        const p = document.getElementById('parrafo');
+        const p2 = document.getElementById('parrafo2');
+
+        console.log(p.textContent);
+        console.log(p2.dataset.ejemplo)
+    </script>
+</body>
+</html>

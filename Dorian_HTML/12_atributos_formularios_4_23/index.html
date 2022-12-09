@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- 
+
+    placeholder: da una pista de lo que el usuario tiene q capturar
+
+    required: hace que un campo sea obligatorio
+
+    readonly: hace que un campo sea de solo lectura
+
+    min - max : establece el minimo y el maximo de un campo numerico
+
+    maxlenght - minlenght : establece el minimo y maximo de caracteres de un string
+
+    selected: equivale a checked en los select, sirve para establecer la opcion
+    por default
+
+    disabled: desactiva el campo, no se podra escribir en el, ademas que no se envia en el submit
+
+      autofocus: para poner el foco al cargar el formulario
+ -->
+  <body>
+    <form action="#">
+      <input type="text" name="" id="" placeholder="escribir texto" />
+      <input type="text" value="hola" id="" readonly /> <br />
+      <select name="numbers" id="">
+        <option value="one">one</option>
+        <option value="two">two</option>
+      </select>
+      <input type="number" name="" id="" min="5" max="10" />
+      <input type="text" name="" id="" minlength="3" maxlength="10" autofocus />
+      <input type="submit" value="send" />
+    </form>
+  </body>
+</html>

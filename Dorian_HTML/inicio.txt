@@ -1,0 +1,51 @@
+https://youtu.be/vz4z0RLcAyk
+
+extensiones:
+
+-   auto rename tag
+-   auto close tag
+-   prettier
+
+section:
+    es un contenedor generico que agrupa contenido que esta relacionado. cuando creamos bloques
+    cuyo contenido es parte de un bloque total usaremos section.
+
+article:
+    es un contenedor que representa contenido independiente, es decir, podemos leer ese fragmento 
+    en cualquier otro sitio y tendria sentido por si mismo.
+
+aside:
+    se utiliza para representar contenido relacionado pero que no forma parte del contenido principal.
+
+
+    wbr -> salto de linea si hiciera falta
+
+
+    https://developer.mozilla.org/es/docs/Web/HTML/Element/form
+    https://developer.mozilla.org/es/docs/Web/HTML/Element/input
+    https://developer.mozilla.org/es/docs/Web/HTML/Element/label
+
+
+CONTENIDO EMBEBIDO
+    - Es todo contenido externo a la pagina
+    - Son los archivos de mayor pesos
+    - Los mas conocidos Son:
+        a) imagenes
+        b) audio
+        c) Videos
+        d) Iframe 
+
+* imagenes  
+
+    - Vectoriales
+        svg(recomendado siempre que se pueda)
+    - Mapa de bits
+        jpg
+        png 8 y 24 (si necesitas transparencias)
+        gif (si necesitas una imagen animada)
+        webp (el formato menos pesado)
+
+        herramienta de pago para convertir imagenes a svg https://es.vectormagic.com/
+        herramienta para convertir en webp https://imagen.online-convert.com/es/convertir-a-webp
+
+https://marketplace.visualstudio.com/items?itemName=kuscamara.electron
