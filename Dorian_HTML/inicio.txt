@@ -48,4 +48,10 @@ CONTENIDO EMBEBIDO
         herramienta de pago para convertir imagenes a svg https://es.vectormagic.com/
         herramienta para convertir en webp https://imagen.online-convert.com/es/convertir-a-webp
 
+
+DPR https://whatismyviewport.com/
+
+
+
+
 https://marketplace.visualstudio.com/items?itemName=kuscamara.electron
